@@ -861,6 +861,9 @@ html {
     text-align: center;
   }
 
+  header h1 {
+    font-size: 40px;
+  }
 
   .abt-img img {
     display: none;
@@ -871,7 +874,7 @@ html {
   }
 
   .card-img {
-    height: 300px;
+    height: 250px;
   }
 
   .card-img img {
