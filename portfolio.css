@@ -445,7 +445,7 @@ html {
 
 .education {
 
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 80px auto;
   display: grid;
 
@@ -505,7 +505,7 @@ html {
 
   padding: 20px;
 
-  height: 500px;
+  height: 300px;
 
   display: flex;
   justify-content: center;
@@ -521,6 +521,7 @@ html {
   object-fit: cover;
 
   border-radius: 10px;
+  object-position: top;
 }
 
 .layer {
@@ -667,7 +668,7 @@ html {
 
 .input-group textarea {
   resize: vertical;
-  min-height: 100px;
+  height: 50px;
 
   border-bottom: 1px solid orangered;
 }
@@ -873,14 +874,17 @@ html {
     grid-template-columns: 1fr;
   }
 
+
+
   .card-img {
     height: 250px;
   }
 
   .card-img img {
     width: 100%;
-    height: auto;
-    object-fit: contain;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
   }
 
   .description {
@@ -891,13 +895,18 @@ html {
     flex-direction: column;
   }
 
+  .contact-title h1 {
+    font-size: 30px;
+  }
+
   .contact-right {
     width: 100%;
     gap: 60px;
   }
 
-  .education {
-    margin-left: 15px;
+  .education,
+  .experience-sec {
+    margin: 25px;
   }
 
   .contact-info {
@@ -930,5 +939,14 @@ html {
   .footer {
     flex-direction: column;
     text-align: center;
+  }
+}
+
+
+@media (max-width: 1300px) {
+
+  .education,
+  .experience-sec {
+    margin: 25px;
   }
 }
