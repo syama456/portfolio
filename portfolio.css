@@ -816,6 +816,7 @@ html {
   flex-direction: column;
   gap: 35px;
   align-items: flex-end;
+
 }
 
 .social-links a {
@@ -836,7 +837,9 @@ html {
 .contact-info {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 30px;
+
 }
 
 .info-box {
@@ -846,12 +849,13 @@ html {
   flex-wrap: wrap;
 }
 
+/* 
 .info-box p {
   font-size: 18px;
   margin-bottom: 10px;
   margin-right: -20px;
 
-}
+} */
 
 .line {
   width: 250px;
@@ -1035,6 +1039,7 @@ html {
 
   .contact-info {
     flex-direction: column;
+
   }
 
   .input-group input,
@@ -1045,6 +1050,11 @@ html {
   .social-links {
     flex-direction: row;
     align-items: flex-start;
+  }
+
+  .social-item,
+  .social-links a {
+    font-size: 15px;
   }
 
   .row {
