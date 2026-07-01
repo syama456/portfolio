@@ -85,7 +85,7 @@ let successMsg = document.getElementById("success-msg");
        if (!hasError) {
     successMsg.innerHTML =
       "Great!!! Email has been Successfully Sent. We will get in touch asap.";
-
+form.onsubmit='https//www.syamasivankutty10@gmail.com'
 
     form.reset();
     
